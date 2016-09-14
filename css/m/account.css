@@ -1,0 +1,155 @@
+div.container-fluid>header.row{
+    background-color:#1C1C1C;
+    color:#ffffff;
+    text-align:center;
+    font-weight:bold;
+    font-size:17px;
+    z-index: 1;
+    height: 32px;
+    line-height: 32px;
+}
+
+/* account - section */
+.account{
+    padding: 5px 8px 10px;
+}
+.form-control{
+    font-size: 18px;
+    border: 0;
+    padding: 10px;
+    outline: 0;
+}
+.account-btn{
+    height: 40px !important;
+    line-height: 0 !important;
+    border-radius: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+.input-group{
+	border: 1px solid #CCCCCC;
+	margin-bottom: 5px;
+}
+.input-group>input:first-child{
+	border-bottom: 1px solid #CCCCCC;
+}
+
+select{
+	border: 1px solid #CCCCCC;
+	height: 30px;
+	width: 70px;
+}
+select[name="day"]{
+	margin-right: -3.313px;
+}
+select[name="year"]{
+	margin-left: -4.2969px;
+}
+
+.account>label{
+	font-size: 17.6px;
+}
+.account>label[for="register"]{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.account .form-group{
+	margin-bottom: 10px;
+}
+
+select[name="lang"]{
+	margin-left: 10px;
+	min-width: 100px;
+}
+
+
+#register .error{
+	margin-top: -6px;
+	font-size: 15px;
+}
+#register div[for="message"]{
+	margin: 7px 0px;
+}
+#register input[type=text]{
+	border: 1px solid #CCCCCC;
+}
+#birthday>div{
+    margin-left: 15px;
+    height: 27px;
+}
+
+#birthday>div:not(:last-child) {
+    display: inline-block;
+    line-height: 2;
+    height: 32px;
+}
+
+#birthday>div:last-child {
+    margin-top: 5px;
+    margin-left: 0;
+}
+
+#birthday>div:first-child {
+    margin-left: 0;
+}
+#birthday>div span{
+    width: 30%;
+    margin: 0px 2px;
+}
+
+#birthday>div span>input{
+    height: 28px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.3;
+    padding: 0;
+}
+#birthday>div span>input::-webkit-input-placeholder {
+   font-size: 16px;
+   line-height: 1.399;
+}
+#birthday>div span>input:-moz-placeholder { /* Firefox 18- */
+   font-size: 16px;
+   line-height: 1.399;  
+}
+#birthday>div span>input::-moz-placeholder {  /* Firefox 19+ */
+   font-size: 16px;
+   line-height: 1.399;  
+}
+#birthday>div span>input:-ms-input-placeholder {  
+   font-size: 16px;
+   line-height: 1.399;  
+}
+
+#birthday>div span:nth-child(1)>input{
+    width: 53px;
+}
+#birthday>div span:nth-child(3)>input{
+    width: 64px;
+}
+#birthday>div span:nth-child(5)>input{
+    width: 67px;
+}
+
+#register>div:nth-child(1) input[name="fname"]{
+    margin-bottom: 15px;
+}
+#register>div:nth-child(3){
+    margin-top: 12px;
+}
+#register>div:nth-child(3)>select{
+    margin-left: 21.5px;
+    height: 28px;
+    width: 80px;
+    outline: none;
+}
+
+#register>.form-group input{
+    margin-bottom: 10px;
+}
+
+#footer>.container-fluid>.row:nth-child(2)>div{
+    width: 33.3333333%;
+    text-align: center !important;
+}

@@ -1,0 +1,72 @@
+#main_page{
+	height: 100%;
+}
+
+#screen:after{content: "hhhhhhhhh";}
+
+.account-link{
+	margin-left: 10px;
+	font-size: 19px;
+	background-color: #CCCCCC;
+	padding: 2px 0px;
+	left:-2px; right: 9px;
+	text-align: center;
+}
+a:hover{
+	text-decoration: none;
+}
+body{
+	background-color: #E9EAED;
+	width: 100%;
+	margin: 0;
+	font-size: 15.5px;
+	height: 100%;
+}
+
+.user-info{
+	margin-left: 8px;
+	max-width: 90%;
+}
+.user-name{
+    font-weight: 200 !important;
+    font-size: 15px;
+}
+.forgot-choose span:first-child>input{
+	height: 20px;
+	display: inherit !important;
+}
+.forgot-choose span:first-child{
+	width: 20px;
+	margin-left: 10px;
+	display: inline-block !important;
+}
+.forgot-choose span:last-child{
+	margin-left: 15px;
+	margin: 3px 10px;
+}
+
+/* user profile */
+
+#user{
+	height: 100%;
+	display: block;
+}
+
+#user>header>div.absolute {
+    bottom: 0;
+    left: 8%;
+    width: 84%;
+}
+
+#user>header>div.absolute>div.clearfix>div.img.img-avatar.user-avatar.lg.pull-left {
+    margin-right: 10px;
+}
+
+.img.img-cover{
+	width: 100%;
+	height: 130px;
+}
+
+#user>section.user>div{
+	display: inline-block;
+}

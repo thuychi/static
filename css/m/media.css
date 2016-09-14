@@ -1,0 +1,228 @@
+.video-control{
+    background-color: #fff;
+}
+
+.comment-content>.video-control {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.video-control>.box {
+    background-color: #EEEFFF;
+}
+
+.video-control>canvas:first-child {
+    margin-bottom: -4px;
+}
+
+.video-control>.box>.timeline>.around {
+    background-color: #4285f4;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: -1.5px;
+    left: 100%;
+    display: none;
+}
+
+.video-control>.box>.control>div>div {
+    display: inline-block;
+    padding: 2px 6px 0px 7px;
+}
+
+.video-control>.box>.control>div>div.time>div {
+    top: -15px;
+    width: 50px;
+    color: gray;
+    font-size: small;
+}
+
+.video-control>.box>.control>div>div.volume {
+    margin-top: auto;
+    width: 60px;
+    height: 15px;
+}
+
+.video-control>.box>.control>div>time {
+    color: #6d6a6a;
+    position: relative;
+}
+
+.video-control>.box>.control>div>time:after {
+    position: absolute;
+    top: -65px;
+}
+
+.video-control>.box>.control>div>div.volume>.box>.progress
+ {
+    height: 15px;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.video-control>.box>.control>div>div.volume>.box>.progress>.child
+ {
+    position: absolute;
+    background-color: #4285f4;
+}
+
+.video-control>.box>.control>div>div.volume>.box>.progress>div.child
+ {
+    height: 2px;
+    width: 100%;
+    top: 4px;
+}
+
+.video-control>.box>.control>div>div.volume>.box>.progress>button.child
+ {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    top: 0;
+}
+
+.video-control>.box>.control>div>button {
+    border: none;
+    background-color: inherit;
+    color: #5a5a5a;
+    margin: 0;
+    font-size: 18px;
+    display: inline-block;
+    padding: 2px 6px 0px 7px;
+}
+
+.video-control>.box>.timeline{
+    height: 5px;
+    margin-bottom: 2px;
+    max-width: 100% !important;
+}
+
+.timeline>.progress {
+    height: 100%;
+    position: relative;
+    max-width: 100% !important;
+    cursor: pointer;
+}
+
+.timeline>.progress>.child {
+    position: absolute;
+    background-color: #4285f4;
+    max-width: 100% !important;
+}
+
+.timeline>.progress>div.child {
+    height: 2.4px;
+}
+
+.timeline>.progress>button.child {
+    border: none;
+    outline: none;
+    width: 5px;
+    height: 6px;
+    border-radius: 0 0 50% 50%;
+    top: 0px;
+}
+/* screen */
+.video-control:-moz-full-screen {
+  background-color: inherit;
+  width: 100%;
+}
+.video-control:-ms-fullscreen {
+  background-color: inherit;
+  width: 100%;
+}
+.video-control:-webkit-full-screen {
+  background-color: inherit;
+  width: 100%;
+}
+
+.video-control:-moz-full-screen > .box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.video-control:-ms-fullscreen > .box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.video-control:-webkit-full-screen > .box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} 
+.video-control:fullscreen {
+  background-color: inherit;
+  width: 100%;
+}
+.video-control:-moz-full-screen > .box>.control>div>button>.glyphicon {
+  color: #FFF;
+}
+.video-control:-ms-fullscreen > .box>.control>div>button>.glyphicon {
+  color: #FFF;
+}
+.video-control:-webkit-full-screen>.box>.control>div>button>.glyphicon {
+  color: #FFF;
+}
+.video-control:-moz-full-screen > .box>.control>div>div.time>div{
+  color: #DDDDDD;
+}
+.video-control:-ms-fullscreen > .box>.control>div>div.time>div{
+  color: #DDDDDD;
+}
+.video-control:-webkit-full-screen>.box>.control>div>div.time>div{
+  color: #DDDDDD;
+}
+
+/* playlist  */
+.post>.post-content>.playlist>.list-group{
+  padding: 0px 5px;
+  border: 1px solid #DEDEDE;
+  background-color: #f0f2f9;
+}
+
+.post>.post-content>.playlist>.list-group>.list-item {
+    clear: both;
+    margin: auto;
+}
+
+.post>.post-content>.playlist>.list-group>.list-item>div:first-child {
+    font-size: smaller;
+    margin-right: 5px;
+    text-align: center !important;
+    padding-top: 4px;
+    color: #984141;
+}
+
+.post>.post-content>.playlist>.list-group>.list-item>div:first-child:after {
+    content: ".";
+}
+
+.post>.post-content>.playlist>.list-group>.list-item>div.media-info {
+}
+
+.post>.post-content>.playlist>.list-group>.list-item>div:last-child {
+    padding-top: 4px;
+    margin-left: 8px;
+    font-size: smaller;
+    text-align: center;
+    color: #949191;
+}
+
+.post>.post-content>.playlist>.list-group>.list-item>div {
+  padding: 1px;
+}
+
+.post>.post-content>.playlist>.list-group{
+  max-height: 120px;
+  overflow: auto;
+}

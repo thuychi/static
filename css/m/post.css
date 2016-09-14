@@ -1,0 +1,24 @@
+.like{
+  color: #5890FF!important;
+}
+
+/* share menu */
+.menu.menu-share.absolute{
+  text-align: left;
+  margin: 0;
+  border: 1px solid #CCC;
+  border-right: 0;
+  top: -80px;
+  right: 0;
+}
+
+.menu.menu-share.absolute>li {
+    list-style: none;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+
+.menu.menu-share.absolute>li:hover {
+    background-color: #0a86ab;
+    color: #FFF;
+}
