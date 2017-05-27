@@ -1,0 +1,26 @@
+.form-reply {
+  margin-left: 32px;
+  padding-top: 5px;
+  margin-bottom: 5px; }
+  .form-reply > header > .form-avatar {
+    width: 25px;
+    height: 25px; }
+  .form-reply > header > .form-text {
+    margin-left: 30px;
+    height: 26px;
+    line-height: 25px !important; }
+    .form-reply > header > .form-text > .input-text {
+      width: 100%;
+      height: 25px;
+      line-height: 13px; }
+  .form-reply > footer {
+    margin-top: -3px; }
+    .form-reply > footer > .button-delete-media {
+      margin-top: 10px; }
+    .form-reply > footer > button:first-child > .question-delete-media {
+      font-size: 13.5px !important; }
+    .form-reply > footer > button > span:not(.question-delete-media) {
+      font-size: 18px !important; }
+  .form-reply > .list-reply > li {
+    padding: 3px 0px;
+    font-size: smaller; }

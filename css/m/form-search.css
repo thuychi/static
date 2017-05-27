@@ -1,0 +1,41 @@
+/* form search */
+#search-link-home {
+  font-size: larger;
+  line-height: 1.5;
+  padding: 0px 10px;
+  left: 0; }
+
+#form-search {
+  height: 100%;
+  left: 42px;
+  right: 0; }
+  #form-search > .relative {
+    height: 100%;
+    width: 100%;
+    display: block; }
+    #form-search > .relative > absolute:nth-child(1) {
+      left: 0;
+      right: 38px;
+      bottom: 1px;
+      top: 1px; }
+      #form-search > .relative > absolute:nth-child(1) > input {
+        background-color: inherit;
+        color: #f3f3f3;
+        border: 0;
+        outline: 0;
+        border-bottom: 1px solid;
+        padding: 0px 6px;
+        font-weight: normal;
+        height: 100%;
+        width: 100%;
+        display: block; }
+    #form-search > .relative > absolute:nth-child(2) {
+      right: 0;
+      height: 100%; }
+      #form-search > .relative > absolute:nth-child(2) > button {
+        height: 93%;
+        background-color: inherit;
+        border: 0;
+        outline: 0;
+        font-size: smaller;
+        width: 36px; }

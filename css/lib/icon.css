@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.icon {
+  display: inline-block;
+  width: 16px !important;
+  height: 16px !important;
+  background-image: url(/asset/img/icon.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  /*   thêm ảnh hoặc video   */
+  /*   biểu tượng cảm xúc   */
+  /*   nhãn dán   */
+  /*  post vote   */ }
+  .icon.icon-upload {
+    background-position: 0px -20px; }
+  .icon.icon-emoticon {
+    background-position: 0px -54px; }
+  .icon.icon-sticker {
+    background-position: 0px -207px; }
+  .icon.icon-angry {
+    background-position: 0px -258px; }
+  .icon.icon-haha {
+    background-position: 0px -326px; }
+  .icon.icon-like {
+    background-position: 0px -343px; }
+  .icon.icon-love {
+    background-position: 0px -360px; }
+  .icon.icon-sad {
+    background-position: 0px -394px; }
+  .icon.icon-wow {
+    background-position: 0px -411px; }
+  .icon.icon-sm {
+    width: 14px !important;
+    height: 14px !important;
+    /*  comment vote   */ }
+    .icon.icon-sm.icon-angry {
+      background-position: 0px -542px; }
+    .icon.icon-sm.icon-haha {
+      background-position: 0px -599px; }
+    .icon.icon-sm.icon-like {
+      background-position: 0px -613px; }
+    .icon.icon-sm.icon-love {
+      background-position: 0px -627px; }
+    .icon.icon-sm.icon-sad {
+      background-position: 0px -655px; }
+    .icon.icon-sm.icon-wow {
+      background-position: 0px -669px; }
